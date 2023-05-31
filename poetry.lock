@@ -2767,8 +2767,8 @@ tester = ["eth-tester[py-evm] (==v0.8.0-b.3)", "py-geth (>=3.11.0)"]
 
 [[package]]
 name = "web3-ethereum-defi"
-version = "0.18.3"
-description = "High level Python APIs for Ethereum-compatible smart contracts, blockchains and protocols like Uniswap, Aave, Enzyme"
+version = "0.21"
+description = "Python library for Uniswap, Aave, ChainLink, Enzyme and other protocols on BNB Chain, Polygon, Ethereum and other blockchains"
 category = "main"
 optional = false
 python-versions = ">=3.10,<3.11"
@@ -2902,7 +2902,7 @@ test = ["mypy", "pre-commit", "pytest", "pytest-asyncio", "websockets (>=10.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10,<3.11"
-content-hash = "ada0b1aa59588aed2ae28e6dc1338f345533f8f079c1df1361c2fe4d0551fad6"
+content-hash = "2f1189060a1a64d014e316625f8345bcb69bf4e027d8d6a878e449f599b7fd97"
 
 [metadata.files]
 aiofiles = [
@@ -5227,8 +5227,8 @@ web3 = [
     {file = "web3-6.0.0.tar.gz", hash = "sha256:6b925a19e4a0001337d8b2faa72577d6b7e8f9a8a9a0b98d8834cdf698cfc045"},
 ]
 web3-ethereum-defi = [
-    {file = "web3_ethereum_defi-0.18.3-py3-none-any.whl", hash = "sha256:10ffc9c490c8791c7313e24a190c352af9623217b24acae1d7c3babec8af7c7e"},
-    {file = "web3_ethereum_defi-0.18.3.tar.gz", hash = "sha256:18ad9abd7ab85298579c20b3bc3a0508f0b82fceee54ca4e9f9de87c7dcd70f0"},
+    {file = "web3_ethereum_defi-0.21-py3-none-any.whl", hash = "sha256:8f5aa609b42f65eede3378388a5fff193e0f10d01f7100d9e78153d043419863"},
+    {file = "web3_ethereum_defi-0.21.tar.gz", hash = "sha256:535611ace2df061f8b4cf655e5e7d26095226330879cd1101e94ea6b5f040943"},
 ]
 webcolors = [
     {file = "webcolors-1.12-py3-none-any.whl", hash = "sha256:d98743d81d498a2d3eaf165196e65481f0d2ea85281463d856b1e51b09f62dce"},
