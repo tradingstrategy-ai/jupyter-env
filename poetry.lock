@@ -4557,10 +4557,10 @@ tqdm-loggable = "0.1.4"
 trading-strategy = "^0.17.6"
 typer = {version = "^0.4.0", optional = true}
 urllib3 = "<2"
-web3-ethereum-defi = {version = "0.21.5", extras = ["data"]}
+web3-ethereum-defi = {version = "0.22", extras = ["data"]}
 
 [package.extras]
-execution = ["APScheduler (>=3.9.1,<4.0.0)", "beautifulsoup4 (>=4.12.2,<5.0.0)", "colorama (>=0.4.4,<0.5.0)", "coloredlogs (>=15.0.1,<16.0.0)", "kaleido (==0.2.1)", "prompt-toolkit (>=3.0.31,<4.0.0)", "python-dotenv (>=0.21.0,<0.22.0)", "python-logging-discord-handler (>=0.1.3,<0.2.0)", "python-logstash-tradingstrategy (==0.5.1)", "typer (>=0.4.0,<0.5.0)", "web3-ethereum-defi[data] (==0.21.5)"]
+execution = ["APScheduler (>=3.9.1,<4.0.0)", "beautifulsoup4 (>=4.12.2,<5.0.0)", "colorama (>=0.4.4,<0.5.0)", "coloredlogs (>=15.0.1,<16.0.0)", "kaleido (==0.2.1)", "prompt-toolkit (>=3.0.31,<4.0.0)", "python-dotenv (>=0.21.0,<0.22.0)", "python-logging-discord-handler (>=0.1.3,<0.2.0)", "python-logstash-tradingstrategy (==0.5.1)", "typer (>=0.4.0,<0.5.0)", "web3-ethereum-defi[data] (==0.22)"]
 qstrader = ["trading-strategy-qstrader (>=0.5,<0.6)"]
 quantstats = ["quantstats (>=0.0.59,<0.0.60)"]
 web-server = ["WebTest (>=3.0.0,<4.0.0)", "openapi-core (<0.17)", "pyramid (>=2.0,<3.0)", "pyramid-openapi3 (>=0.16.0,<0.17.0)", "waitress (>=2.0.0,<3.0.0)"]
@@ -4873,13 +4873,13 @@ tester = ["eth-tester[py-evm] (==v0.8.0-b.3)", "py-geth (>=3.11.0)"]
 
 [[package]]
 name = "web3-ethereum-defi"
-version = "0.21.5"
+version = "0.22"
 description = "Python library for Uniswap, Aave, ChainLink, Enzyme and other protocols on BNB Chain, Polygon, Ethereum and other blockchains"
 optional = false
 python-versions = ">=3.10,<3.11"
 files = [
-    {file = "web3_ethereum_defi-0.21.5-py3-none-any.whl", hash = "sha256:db986194cb61f23ca322eb9c509aba27774bf8759b0d93acbfe03ad734d5b983"},
-    {file = "web3_ethereum_defi-0.21.5.tar.gz", hash = "sha256:2c9a6425f2a42ed13070c8e42bb098afb70d6642bb241b0a9909c21249547262"},
+    {file = "web3_ethereum_defi-0.22-py3-none-any.whl", hash = "sha256:e6a9560eb55f40b5f9aff4b108a1899fe0e92d3f89a2772e46107e03c9a80969"},
+    {file = "web3_ethereum_defi-0.22.tar.gz", hash = "sha256:ceae70a1fe6b6edd1328bb2af44dad4edb8b45e9f444128ea27990c8b1841f8e"},
 ]
 
 [package.dependencies]
@@ -5242,4 +5242,4 @@ test = ["mypy", "pre-commit", "pytest", "pytest-asyncio", "websockets (>=10.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "40f8a8c7a827389801f999391ecb6c3beaaf27cdde16aa61bd7630e008fd3f88"
+content-hash = "68800a9a96082e213c508fbc9f40463972af706742fa731a1f606bec20d8745e"
