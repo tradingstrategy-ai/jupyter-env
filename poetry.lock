@@ -4838,7 +4838,7 @@ statsmodels = "^0.14.0"
 tblib = "^1.7.0"
 tqdm = "^4.64.1"
 tqdm-loggable = "0.1.4"
-trading-strategy = "^0.20.8"
+trading-strategy = "^0.20.10"
 typer = {version = "^0.4.0", optional = true}
 urllib3 = "<2"
 web3-ethereum-defi = {version = "0.22.19", extras = ["data", "test"]}
@@ -4855,13 +4855,13 @@ url = "deps/trade-executor"
 
 [[package]]
 name = "trading-strategy"
-version = "0.20.8"
+version = "0.20.10"
 description = "Algorithmic trading, token and cryptocurrency DEX trading data, for Uniswap, Aave, PancakeSwap, Sushi, Trader Joe, others"
 optional = false
 python-versions = ">=3.10,<3.11"
 files = [
-    {file = "trading_strategy-0.20.8-py3-none-any.whl", hash = "sha256:c6c7184ef6e743ab154af2c82bc3937bdd08a36f2cee75c20d39ba76616026f7"},
-    {file = "trading_strategy-0.20.8.tar.gz", hash = "sha256:b36a31bef7a224a0f1859e91aa62036a6a07175381ddc76e8dd0c1f623ae5e2d"},
+    {file = "trading_strategy-0.20.10-py3-none-any.whl", hash = "sha256:d284c4078ed053341f4a8528a590479ee7990b5193f5baf216ff283e5fb6c2e2"},
+    {file = "trading_strategy-0.20.10.tar.gz", hash = "sha256:5d74adbf0be9953b3480dba7592531389871e4c387e4deb73ade7e364613fbb1"},
 ]
 
 [package.dependencies]
